@@ -17,6 +17,15 @@ module Testguru
     # in config/environments, which are processed later.
     #
     # config.time_zone = "Central Time (US & Canada)"
+    
+    config.time_zone = "Moscow"
+
     # config.eager_load_paths << Rails.root.join("extras")
+    # config/initializers/locale.rb
+    # Where the I18n library should search for translation files
+    # Permitted locales available for the application
+    # Set default locale to something other than :en
+
+    config.i18n.default_locale = :ru
   end
 end
